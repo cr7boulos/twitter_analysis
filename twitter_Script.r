@@ -48,7 +48,7 @@ remove_links <- function(char_vect){
 }
 
 # fill in your authentication keys from Twitter in
-# these variables
+# these variables below
 
 cKey = 'hidden'
 cSecret = 'hidden'
@@ -62,7 +62,8 @@ access_secret = 'hidden'
 
 numberOfTweets = 500; # change this number to whatever you want
 
-
+# see this guide on building 
+# a twitter search query: https://dev.twitter.com/rest/public/search
 
 timeMag = searchTwitter('from:time', n = numberOfTweets, lang='en' )
 
